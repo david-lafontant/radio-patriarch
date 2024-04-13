@@ -1,0 +1,39 @@
+#social {
+  /* From https://css.glass */
+  background: rgba(209, 206, 204, 0.57);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(1.9px);
+  -webkit-backdrop-filter: blur(1.9px);
+  border: 1px solid rgba(255, 255, 255, 0.89);
+  display: flex;
+  width: fit-content;
+  position: fixed;
+  padding: 0.6rem 0.9rem;
+
+  i {
+    color: orange;
+    font-size: 1.1rem;
+    margin-right: 1.5rem;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  #social {
+    bottom: 1rem;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+@media only screen and (min-width: 601px) {
+  #social {
+    position: fixed;
+    top: 35%;
+    right: 4rem;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+  }
+}
