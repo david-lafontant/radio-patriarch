@@ -1,51 +1,51 @@
 <div class="container">
-<div class="row">
-<div class="col border border-danger p-0">
 
-<div class="bg-image" 
-     style="background-image: url('<%= asset_path "haiti.jpg" %>');
-            height: 100vh; background-repeat: no-repeat;    background-position: center; 
-  background-repeat: no-repeat; 
-  background-size: cover; ; width:100% ">
-<section id="home">
+<div class="row">
+<div class="col">
+<section id="home" class="bg-image" 
+style="background-image: url('<%= asset_path "haiti.jpg" %>');
+       height: 100vh; background-repeat: no-repeat;    background-position: center; 
+background-repeat: no-repeat; 
+background-size: cover; ; width:100% ">
 <%= image_tag("logo", class: "image-fluid", size: "200*150") %>
 <%= render "shared/social"%>
+
 </section>
 
 </div>
-<div>
 </div>
-
-
 
 <div class="row">
 <div class="col">
-<section>
-
-
+<section id="about">
+<h2>
+  A propos de Radio Tele Patriache
+</h2>
+<%= image_tag("logo", class: "image-fluid", size: "200*150") %>
+<p>
+  Excepteur incididunt dolor id est deserunt occaecat laboris cupidatat tempor reprehenderit commodo culpa nostrud. Occaecat qui sint velit non. Nostrud excepteur dolore velit adipisicing. Proident ipsum sit consequat eiusmod magna officia mollit mollit nostrud Lorem duis consectetur.
+</p>
+<%= link_to "En savoir plus", a_propos_de_nous_path, class: "btn btn-primary" %>
 </section>
-<div>
 </div>
-
-
+</div>
 
 <div class="row">
-<div class="col">
-<section>
+  <div class="col">
+    
 
+  </div>
+  <div class="col">
 
-</section>
-<div>
+  </div>
+  <div class="col">
+
+  </div>
+
 </div>
-
-
 
 <div class="row">
-<div class="col">
-<section>
 
-
-</section>
-<div>
 </div>
+
 </div>
