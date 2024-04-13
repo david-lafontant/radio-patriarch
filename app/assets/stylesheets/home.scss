@@ -8,11 +8,11 @@
   text-decoration: none;
   color: rgb(231, 9, 9);
   position: relative;
-  transition: all .3s cubic-bezier(.2, 0, 0, 1);
+  transition: all 0.3s cubic-bezier(0.2, 0, 0, 1);
   z-index: 1;
   cursor: pointer;
-  
-  &:after {
+
+  &::after {
     content: '';
     display: block;
     height: 2px;
@@ -21,15 +21,15 @@
     right: 1.25rem;
     left: 1.25rem;
     background-color: #1a1818;
-    transition: all .3s cubic-bezier(.2, 0, 0, 1);
+    transition: all 0.3s cubic-bezier(0.2, 0, 0, 1);
     transform-origin: bottom center;
     z-index: -1;
   }
-  
+
   &:hover {
     color: #ebc107;
-    
-    &:after {
+
+    &::after {
       right: 0;
       left: 0;
       height: 100%;
