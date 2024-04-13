@@ -22,3 +22,16 @@ Things you may want to cover:
 * Deployment instructions
 
 * ...
+
+# color palette
+
+Sorbus #fa8007
+Tuatara #2f2e2d
+Satin Linen #e2ded2
+Antique Bronze #7e3608
+
+colora #F3F6F6
+colorb #9C9785
+colorc #FA8007
+colord #A5693C
+colord #202F39
