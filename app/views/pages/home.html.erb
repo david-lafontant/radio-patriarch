@@ -15,17 +15,27 @@ background-size: cover; ; width:100% ">
 </div>
 </div>
 
-<div class="row">
+<div class="row mt-3">
 <div class="col">
 <section id="about">
-<h2>
-  A propos de Radio Tele Patriache
-</h2>
-<%= image_tag("logo", class: "image-fluid", size: "200*150") %>
-<p>
+<div class="card mb-3" style="width: 100%;">
+  <div class="row g-0">
+    <div class="col-md-4">
+   
+        <%= image_tag("logo", class: "img-fluid rounded-start", alt: "radio tele patriarche") %>
+    </div>
+    <div class="col-md-8">
+      <div class="card-body">
+        <h5 class="card-title">A propos de Radio T&eacute;l&eacute; Patriarche</h5>
+          <p class="card-text">
   Excepteur incididunt dolor id est deserunt occaecat laboris cupidatat tempor reprehenderit commodo culpa nostrud. Occaecat qui sint velit non. Nostrud excepteur dolore velit adipisicing. Proident ipsum sit consequat eiusmod magna officia mollit mollit nostrud Lorem duis consectetur.
 </p>
-<%= link_to "En savoir plus", a_propos_de_nous_path, class: "btn btn-primary" %>
+
+    <%= link_to "En savoir plus", a_propos_de_nous_path, class: "btn btn-primary" %>
+      </div>
+    </div>
+  </div>
+</div>
 </section>
 </div>
 </div>
