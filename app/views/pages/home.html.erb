@@ -46,7 +46,7 @@ background-size: cover; ; width:100% ">
     <h2>Actualit&eacute;</h2>
       <div class="card-group">
 
-        <div class="card">
+        <div class="card p-2">
           <%= image_tag("logo", class: "card-img-top", alt: "radio tele patriarche") %>
           <div class="card-body">
             <h5 class="card-title">Newz</h5>
@@ -57,11 +57,11 @@ background-size: cover; ; width:100% ">
             </p>     
           </div>
           <div class="card-footer">
-            <%= link_to "En savoir plus", a_propos_de_nous_path, class: "btn btn-primary" %>
+            <%= link_to "En savoir plus", a_propos_de_nous_path, class: "more" %>
           </div>
         </div>
 
-        <div class="card">
+        <div class="card p-2">
           <%= image_tag("logo", class: "card-img-top", alt: "radio tele patriarche") %>
           <div class="card-body">
             <h5 class="card-title">Newz</h5>
@@ -72,11 +72,11 @@ background-size: cover; ; width:100% ">
             </p>     
           </div>
           <div class="card-footer">
-            <%= link_to "En savoir plus", a_propos_de_nous_path, class: "btn btn-primary" %>
+            <%= link_to "En savoir plus", a_propos_de_nous_path, class: "more" %>
           </div>
         </div>
 
-        <div class="card">
+        <div class="card p-2">
           <%= image_tag("logo", class: "card-img-top", alt: "radio tele patriarche") %>
           <div class="card-body">
             <h5 class="card-title">Newz</h5>
@@ -87,7 +87,7 @@ background-size: cover; ; width:100% ">
             </p>     
           </div>
           <div class="card-footer">
-            <%= link_to "En savoir plus", a_propos_de_nous_path, class: "btn btn-primary" %>
+            <%= link_to "En savoir plus", a_propos_de_nous_path, class: "more" %>
           </div>
         </div>
 
@@ -97,6 +97,70 @@ background-size: cover; ; width:100% ">
 </div>
 
 <div class="row">
+<div class="col">
+<section>
+<h2>Articles</h2>
+<div id="carouselArticles" class="carousel slide" data-bs-ride="carousel">
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carouselArticles" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carouselArticles" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#carouselArticles" data-bs-slide-to="2" aria-label="Slide 3"></button>
+  </div>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+
+      <%= image_tag("article1.jpeg", class: "d-block w-100", alt: "article illustration") %>
+      <div class="carousel-caption d-none d-md-block">
+        <h3>
+        Titre de larticle 
+        </h3>
+        <p>
+         Dolor incididunt id pariatur labore Lorem commodo nisi fugiat cupidatat irure voluptate ex. Cillum est adipisicing sint duis. Velit sunt occaecat commodo adipisicing laborum. Do occaecat velit deserunt aliquip. Eu id quis anim amet ad consectetur nisi. Commodo sint cupidatat ex velit proident deserunt anim ex dolore.
+        </p>
+      </div>
+    </div>
+    <div class="carousel-item">
+
+      <%= image_tag("article2.jpeg", class: "d-block w-100", alt: "article illustration") %>
+      <div class="carousel-caption d-none d-md-block">
+        <h3>
+        Titre de larticle 
+        </h3>
+        <p>
+         Reprehenderit irure eiusmod aliqua occaecat. Dolore consequat esse tempor labore nisi sit deserunt quis ut sit ut eiusmod ipsum. Et nulla laborum cillum cupidatat sunt deserunt laboris aute eiusmod nulla. Cupidatat do ex exercitation proident enim excepteur. Dolor ipsum elit eu Lorem eu id excepteur nulla do deserunt pariatur dolore. Laborum quis culpa ex sint sunt quis. In nisi eu velit nisi nulla dolor fugiat dolore cillum exercitation consequat sunt aute.
+        </p>
+      </div>
+    </div>
+    <div class="carousel-item">
+
+            <%= image_tag("article3.jpeg", class: "d-block w-100", alt: "article illustration") %>
+      <div class="carousel-caption d-none d-md-block">
+        <h3>
+        Titre de larticle 
+        </h3>
+        <p>
+          Eu commodo duis sint fugiat ipsum. Pariatur voluptate et fugiat irure pariatur tempor qui fugiat adipisicing. Quis cillum nulla fugiat irure voluptate fugiat aute aliqua. Dolore sint sunt eu mollit amet sunt anim. Et laborum occaecat ut sit ea cillum occaecat ut proident esse sunt magna dolore deserunt. In est laborum deserunt reprehenderit nulla magna enim exercitation eu eu fugiat fugiat amet duis.
+        </p>
+      </div>
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselArticles" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselArticles" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+<div class="mt-4 mb-4 p-4">
+<a class="more">Plus d'article</a>
+</div>
+</section>
+
+
+
+</div>
 
 </div>
 
